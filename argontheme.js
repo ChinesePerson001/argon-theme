@@ -2387,7 +2387,7 @@ function startTypeEffect($element, text, interval){
 if ($(".hitokoto").length > 0){
 	$.ajax({
 		type: 'GET',
-		url: "https://v1.hitokoto.cn",
+		url: "https://clisite-2.wasmer.app/wp-json/famous-quotes/v1/random/",
 		success: function(result){
 			$(".hitokoto").text(result.hitokoto);
 		},
